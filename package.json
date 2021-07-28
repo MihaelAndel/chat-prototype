@@ -1,0 +1,32 @@
+{
+	"name": "chat-prototype",
+	"version": "1.0.0",
+	"description": "A simple channel-based chat app",
+	"main": "src/index.ts",
+	"scripts": {
+		"dev:watch": "nodemon",
+		"dev:start": "ts-node src/index.ts",
+		"build": "tsc",
+		"clean": "rm -r build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MihaelAndel/chat-prototype-backend.git"
+	},
+	"author": "Mihael Anđel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/MihaelAndel/chat-prototype/issues"
+	},
+	"homepage": "https://github.com/MihaelAndel/chat-prototype#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.28.5",
+		"@typescript-eslint/parser": "^4.28.5",
+		"eslint": "^7.31.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-plugin-import": "^2.23.4",
+		"nodemon": "^2.0.12",
+		"ts-node": "^10.1.0",
+		"typescript": "^4.3.5"
+	}
+}
